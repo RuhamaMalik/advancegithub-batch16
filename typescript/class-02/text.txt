@@ -1,0 +1,15 @@
+> tsc --init ----------- generate tsconfig.json
+
+>  "rootDir": "./src",
+    "outDir": "./dist",
+    "module": "esnext",
+    "target": "es2016",
+> src folder >>>>>>>>> all ts files
+> dis folder >>>>>>>>> all js files
+> tsc ----------- compile all ts files into js
+> connect js file in html
+> <script type="module" src="./dist/index.js"></script>
+> run project with liveServer
+
+> tsc --watch | tsc -w
+> Ctrl + C >>>> batch terminate
